@@ -1,5 +1,5 @@
 -- Línea 1: Selecciona la DB para los inserts.
-USE proyectos_informaticos;
+USE sistema_gestion_de_bases_de_datos;
 
 --  Inserta 10 registros en 'docente'. NULL en Codigo para AUTO_INCREMENT. Valores únicos en Documento.
 INSERT INTO docente (Codigo, Documento, Nombre, Direccion, Titulo, AnosExperiencia) VALUES
